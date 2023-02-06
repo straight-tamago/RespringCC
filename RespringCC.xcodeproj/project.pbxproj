@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1FDA74298EAB9B0060B48E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1FDA73298EAB9B0060B48E /* Assets.xcassets */; };
+		3D1FDA75298EAE8C0060B48E /* Default.car in Resources */ = {isa = PBXBuildFile; fileRef = 3D1FDA72298EA6970060B48E /* Default.car */; };
+		3D45FF3D298E858400BC16DA /* RespringCCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45FF3C298E858400BC16DA /* RespringCCApp.swift */; };
+		3D45FF3F298E858400BC16DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45FF3E298E858400BC16DA /* ContentView.swift */; };
+		3D45FF44298E858800BC16DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D45FF43298E858800BC16DA /* Preview Assets.xcassets */; };
+		3D45FF52298E85CF00BC16DA /* vm_unaligned_copy_switch_race.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D45FF4D298E85CF00BC16DA /* vm_unaligned_copy_switch_race.c */; };
+		3D45FF53298E85CF00BC16DA /* grant_full_disk_access.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45FF4F298E85CF00BC16DA /* grant_full_disk_access.m */; };
+		3D45FF54298E85CF00BC16DA /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45FF51298E85CF00BC16DA /* helpers.m */; };
+		3D45FF59298E8A3000BC16DA /* Default.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D45FF58298E8A3000BC16DA /* Default.plist */; };
+		3D45FF5B298E8F3100BC16DA /* Overwrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45FF5A298E8F3100BC16DA /* Overwrite.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D1FDA72298EA6970060B48E /* Default.car */ = {isa = PBXFileReference; lastKnownFileType = file; path = Default.car; sourceTree = "<group>"; };
+		3D1FDA73298EAB9B0060B48E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D45FF39298E858400BC16DA /* RespringCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RespringCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D45FF3C298E858400BC16DA /* RespringCCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespringCCApp.swift; sourceTree = "<group>"; };
+		3D45FF3E298E858400BC16DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D45FF43298E858800BC16DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D45FF4A298E85CD00BC16DA /* RespringCC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RespringCC-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D45FF4C298E85CE00BC16DA /* grant_full_disk_access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grant_full_disk_access.h; sourceTree = "<group>"; };
+		3D45FF4D298E85CF00BC16DA /* vm_unaligned_copy_switch_race.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vm_unaligned_copy_switch_race.c; sourceTree = "<group>"; };
+		3D45FF4E298E85CF00BC16DA /* vm_unaligned_copy_switch_race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_unaligned_copy_switch_race.h; sourceTree = "<group>"; };
+		3D45FF4F298E85CF00BC16DA /* grant_full_disk_access.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = grant_full_disk_access.m; sourceTree = "<group>"; };
+		3D45FF50298E85CF00BC16DA /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		3D45FF51298E85CF00BC16DA /* helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpers.m; sourceTree = "<group>"; };
+		3D45FF58298E8A3000BC16DA /* Default.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Default.plist; sourceTree = "<group>"; };
+		3D45FF5A298E8F3100BC16DA /* Overwrite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overwrite.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D45FF36298E858400BC16DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D45FF30298E858400BC16DA = {
+			isa = PBXGroup;
+			children = (
+				3D45FF3B298E858400BC16DA /* RespringCC */,
+				3D45FF3A298E858400BC16DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D45FF3A298E858400BC16DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D45FF39298E858400BC16DA /* RespringCC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D45FF3B298E858400BC16DA /* RespringCC */ = {
+			isa = PBXGroup;
+			children = (
+				3D45FF55298E85EF00BC16DA /* Exploit */,
+				3D45FF3C298E858400BC16DA /* RespringCCApp.swift */,
+				3D45FF3E298E858400BC16DA /* ContentView.swift */,
+				3D45FF5A298E8F3100BC16DA /* Overwrite.swift */,
+				3D1FDA73298EAB9B0060B48E /* Assets.xcassets */,
+				3D45FF58298E8A3000BC16DA /* Default.plist */,
+				3D1FDA72298EA6970060B48E /* Default.car */,
+				3D45FF42298E858800BC16DA /* Preview Content */,
+			);
+			path = RespringCC;
+			sourceTree = "<group>";
+		};
+		3D45FF42298E858800BC16DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D45FF43298E858800BC16DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D45FF55298E85EF00BC16DA /* Exploit */ = {
+			isa = PBXGroup;
+			children = (
+				3D45FF4C298E85CE00BC16DA /* grant_full_disk_access.h */,
+				3D45FF4F298E85CF00BC16DA /* grant_full_disk_access.m */,
+				3D45FF50298E85CF00BC16DA /* helpers.h */,
+				3D45FF51298E85CF00BC16DA /* helpers.m */,
+				3D45FF4D298E85CF00BC16DA /* vm_unaligned_copy_switch_race.c */,
+				3D45FF4E298E85CF00BC16DA /* vm_unaligned_copy_switch_race.h */,
+				3D45FF4A298E85CD00BC16DA /* RespringCC-Bridging-Header.h */,
+			);
+			path = Exploit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D45FF38298E858400BC16DA /* RespringCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D45FF47298E858800BC16DA /* Build configuration list for PBXNativeTarget "RespringCC" */;
+			buildPhases = (
+				3D45FF35298E858400BC16DA /* Sources */,
+				3D45FF36298E858400BC16DA /* Frameworks */,
+				3D45FF37298E858400BC16DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RespringCC;
+			productName = RespringCC;
+			productReference = 3D45FF39298E858400BC16DA /* RespringCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D45FF31298E858400BC16DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3D45FF38298E858400BC16DA = {
+						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = 3D45FF34298E858400BC16DA /* Build configuration list for PBXProject "RespringCC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D45FF30298E858400BC16DA;
+			productRefGroup = 3D45FF3A298E858400BC16DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D45FF38298E858400BC16DA /* RespringCC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D45FF37298E858400BC16DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D45FF44298E858800BC16DA /* Preview Assets.xcassets in Resources */,
+				3D1FDA74298EAB9B0060B48E /* Assets.xcassets in Resources */,
+				3D45FF59298E8A3000BC16DA /* Default.plist in Resources */,
+				3D1FDA75298EAE8C0060B48E /* Default.car in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D45FF35298E858400BC16DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D45FF53298E85CF00BC16DA /* grant_full_disk_access.m in Sources */,
+				3D45FF5B298E8F3100BC16DA /* Overwrite.swift in Sources */,
+				3D45FF3F298E858400BC16DA /* ContentView.swift in Sources */,
+				3D45FF3D298E858400BC16DA /* RespringCCApp.swift in Sources */,
+				3D45FF52298E85CF00BC16DA /* vm_unaligned_copy_switch_race.c in Sources */,
+				3D45FF54298E85CF00BC16DA /* helpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D45FF45298E858800BC16DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D45FF46298E858800BC16DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D45FF48298E858800BC16DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RespringCC/Preview Content\"";
+				DEVELOPMENT_TEAM = WQL5MJWHM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RespringCC;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.straight-tamago.RespringCC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RespringCC/Exploit/RespringCC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D45FF49298E858800BC16DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RespringCC/Preview Content\"";
+				DEVELOPMENT_TEAM = WQL5MJWHM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RespringCC;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.straight-tamago.RespringCC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RespringCC/Exploit/RespringCC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D45FF34298E858400BC16DA /* Build configuration list for PBXProject "RespringCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D45FF45298E858800BC16DA /* Debug */,
+				3D45FF46298E858800BC16DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D45FF47298E858800BC16DA /* Build configuration list for PBXNativeTarget "RespringCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D45FF48298E858800BC16DA /* Debug */,
+				3D45FF49298E858800BC16DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D45FF31298E858400BC16DA /* Project object */;
+}
