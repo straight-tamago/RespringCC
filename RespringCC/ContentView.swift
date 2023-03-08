@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.scenePhase) private var scenePhase
     @State var isURLSchemeOpened = false
     @State var Show = 0
     @State private var flag = true
@@ -39,8 +40,10 @@ struct ContentView: View {
                     }
                 }
             }
-        }.onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        }
+        .onChange(of: scenePhase) { phase in
+            Show = 0
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                 if isURLSchemeOpened {
                     Show = 2
                 }else{
