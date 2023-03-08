@@ -42,12 +42,14 @@ struct ContentView: View {
             }
         }
         .onChange(of: scenePhase) { phase in
-            Show = 0
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-                if isURLSchemeOpened {
-                    Show = 2
-                }else{
-                    Show = 1
+            if phase == .active {
+                Show = 0
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                    if isURLSchemeOpened {
+                        Show = 2
+                    }else{
+                        Show = 1
+                    }
                 }
             }
         }
